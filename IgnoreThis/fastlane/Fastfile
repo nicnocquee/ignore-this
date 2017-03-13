@@ -32,7 +32,7 @@ platform :ios do
     )
     danger(
       danger_id: "unit-tests",
-      dangerfile: "../Dangerfile",
+      dangerfile: "../../Dangerfile",
       github_api_token: ENV["DANGER_GITHUB_API_TOKEN"],
       verbose: true
     )
