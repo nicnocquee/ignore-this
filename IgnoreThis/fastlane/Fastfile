@@ -30,6 +30,5 @@ platform :ios do
       scheme: 'IgnoreThis',
       output_directory: 'fastlane/code_coverage'
     )
-    
   end
 end
