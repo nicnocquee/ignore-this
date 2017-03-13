@@ -30,6 +30,7 @@ platform :ios do
       scheme: 'IgnoreThis',
       output_directory: 'fastlane/code_coverage'
     )
+    
     # danger(
     #   danger_id: "unit-tests",
     #   dangerfile: "../Dangerfile",
