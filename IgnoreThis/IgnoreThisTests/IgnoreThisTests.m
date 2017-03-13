@@ -8,6 +8,8 @@
 
 #import <XCTest/XCTest.h>
 
+#import "ViewController.h"
+
 @interface IgnoreThisTests : XCTestCase
 
 @end
@@ -26,6 +28,11 @@
 
 - (void)testDefault {
     XCTAssertTrue([@"yo" isEqualToString:@"yo"]);
+}
+
+- (void)testSum {
+    ViewController *controller = [[ViewController alloc] init];
+    XCTAssertTrue([controller sum:2 with:3] == 5);
 }
 
 @end

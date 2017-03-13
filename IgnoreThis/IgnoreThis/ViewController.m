@@ -25,5 +25,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSInteger)sum:(NSInteger)num1 with:(NSInteger)num2 {
+    return num1 + num2;
+}
+
 
 @end
