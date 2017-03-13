@@ -15,8 +15,6 @@ fastlane_version "1.97.2"
 
 default_platform :ios
 
-
-
 platform :ios do
   before_all do
     cocoapods
@@ -33,5 +31,11 @@ platform :ios do
       output_directory: 'fastlane/code_coverage'
     )
     
+    # danger(
+    #   danger_id: "unit-tests",
+    #   dangerfile: "../Dangerfile",
+    #   github_api_token: ENV["DANGER_GITHUB_API_TOKEN"],
+    #   verbose: true
+    # )
   end
 end

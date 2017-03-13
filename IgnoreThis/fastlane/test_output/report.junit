@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='IgnoreThisTests.xctest' tests='3' failures='0'>
   <testsuite name='IgnoreThisUITests' tests='1' failures='0'>
-    <testcase classname='IgnoreThisUITests' name='testExample' time='8.680'/>
+    <testcase classname='IgnoreThisUITests' name='testExample' time='8.858'/>
   </testsuite>
   <testsuite name='IgnoreThisTests' tests='2' failures='0'>
     <testcase classname='IgnoreThisTests' name='testDefault' time='0.001'/>
